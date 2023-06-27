@@ -66,7 +66,7 @@ private:
 	FRandomStream RandomCreate = FRandomStream();
 
 
-	UPROPERTY(Category = "GameModeValue", EditAnywhere, DisplayName = "바디 오브젝트 클래스")
+	UPROPERTY(Category = "GameModeValue", EditAnywhere, DisplayName = "BodyObjClass")
 		TSubclassOf<AActor> BodyType;
 
 };
